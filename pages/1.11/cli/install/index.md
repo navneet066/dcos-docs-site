@@ -95,7 +95,7 @@ The recommended method to install the DC/OS CLI is from the DC/OS web interface.
 - You must have a separate computer that is not part of the DC/OS cluster on which you can install the CLI.
 - You must have network access from the external system hosting the CLI to the DC/OS cluster.
 - You must be able to open a command-line environment, such as Terminal, on the external system hosting the CLI.
-- You nust be able to run `cURL` program on the system hosting the CLI. If you don't have `cURL`, follow the instructions in [Install curl on Mac OSX](http://macappstore.org/curl/) to install it.
+- You must be able to run `cURL` program on the system hosting the CLI. If you don't have `cURL`, follow the instructions in [Install curl on Mac OSX](http://macappstore.org/curl/) to install it.
 - You must not be using the `noexec` to mount the `/tmp` directory unless you have set a `TMPDIR` environment variable to something other than the `/tmp` directory. Mounting the `/tmp` directory with the `noexec` option can prevent CLI operations.
 
 ### Installing the DC/OS CLI
@@ -136,7 +136,7 @@ The recommended method to install the DC/OS CLI is from the DC/OS web interface.
 - You must have a separate computer that is not part of the DC/OS cluster on which you can install the CLI.
 - You must have network access from the external system hosting the CLI to the DC/OS cluster.
 - You must be able to open a command-line environment, such as Windows PowerShell or the `cmd.exe` program, on the external system hosting the CLI. Windows PowerShell is installed by default on Windows 7 and later.
-- You nust disable any security or antivirus software before you start the installation.
+- You must disable any security or antivirus software before you start the installation.
 - You must not be using the `noexec` to mount the `/tmp` directory unless you have set a `TMPDIR` environment variable to something other than the `/tmp` directory. Mounting the `/tmp` directory with the `noexec` option can prevent CLI operations.
 
 1.  Run command line environment as Administrator.
